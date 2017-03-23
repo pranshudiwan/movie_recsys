@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="keywords" content="Movies, reviews, recommender system, movie ratings">
+ <meta name="creator" content="Pranshu Diwan">
+
+ <title>Home Page</title>
+
+<link rel="stylesheet" type="text/css" href="home_page.css">
+</head>
+
+<body>
+
+    <nav class="main-nav">
+       
+      <form>
+      <input type="text" name="search_text" class="search_text" placeholder="Search..">
+      </form>
+
+      <a href="#" class="logo_image"><img src="eye.png"></a>
+      <a href="#" class="home_image"><img src="th-menu-outline.png"></a>
+      <a href="#" class="notif_image"><img src="star-outline.png"></a>
+      <a href="#" class="user_image"><img src="user.png"></a>
+    
+    </nav><br><br>
+
+    <h1 class="welcome">Welcome, Pranshu Diwan</h1><br><br>
+
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <a href="#"><img src="1.jpg" style="width:100%" class="hover-shadow"></a>
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <a href="#"><img src="2.jpg" style="width:100%" class="hover-shadow"></a>
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <a href="#"><img src="4.jpg" style="width:100%" class="hover-shadow"></a>
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 8000); // Change image every 2 seconds
+}
+</script>
+
+<div class="box1">
+  <h1 class="title_top_picks" style="display: inline;">Top picks for you:<br><br> </h1>
+  <h3  class="title_see_more" style="display: inline;"><a href="#">See more<br></a></h3>
+
+  <div class="img_container">
+
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+
+   </div>
+</div>
+
+
+<div class="box2">
+  <h1 class="title_top_picks" style="display: inline;">Recent Releases: <br><br> </h1>
+  <h3  class="title_see_more" style="display: inline;"><a href="#">See more<br></a></h3>
+
+  <div class="img_container">
+
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+
+</div>
+</div>
+
+<div class="box3">
+ <div class="add_movie">
+   <h1>Movie missing? Submit it to us, we'll add it here.<br></h1>
+
+  <form>
+    <label for="fname"><br>Title</label><br>
+    <input type="text" id="fname" name="form_text" class="form_text" 
+    placeholder="Title.."><br>
+
+    <label for="lname"><br>Imdb link<br></label>
+    <input type="text" id="lname" name="form_text" class="form_text" 
+    placeholder="Imdb link"><br><br><br>
+
+    <input type="submit" value="Submit" name="form_submit" class="form_submit">
+  </form>
+   </div>
+
+</div>
+
+<div class="box3a">
+fevwev
+
+</div>
+
+<div class="box4">
+  <h1 class="title_top_picks" style="display: inline;">Rate these movies: <br><br> </h1>
+  <h3  class="title_see_more" style="display: inline;"><a href="#">See more<br></a></h3>
+
+  <div class="img_container">
+
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+
+</div>
+</div>
+
+<div class="box5">
+  <h1 class="title_top_picks" style="display: inline;">Your wishlist: <br><br> </h1>
+  <h3  class="title_see_more" style="display: inline;"><a href="#">See more<br></a></h3>
+
+  <div class="img_container">
+
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+   <a href="#">
+   <img src="5.jpg" alt="Forest" class="img">
+   </a>
+
+</div>
+</div>
+
+<footer class="footer">
+
+  <div class="f_row">
+
+     <div class="f_column top_movies_list">
+     <p style= "color:blue; font-size: 26px;">About us:</a></p>
+
+     <ol type="1">
+     <li><a href="#" style= "color:green;">Who are we</a></li>
+     <li><a href="#" style= "color:green;">About this website</a></li>
+     <li><a href="#" style= "color:green;">Contact us</a></li>
+     <li><a href="#" style= "color:green;">Privacy Policy</a></li>
+     </ol>
+     
+     </div>
+
+    <div class="f_column1 top_movies_list">
+     <p style= "color:blue; font-size: 26px;">Help WebsiteName</a></p>
+
+     <ol type="1">
+     <li><a href="#" style= "color:green;">Give feedback</a></li>
+     <li><a href="#" style= "color:green;">Add a movie title</a></li>
+     <li><a href="#" style= "color:green;">Donate</a></li>
+     </ol>
+     
+     </div>
+
+     <div class="f_column2 top_movies_list">
+     <p style= "color:blue; font-size: 26px;">Your Account</a></p>
+
+     <ol type="1">
+     <li><a href="#" style= "color:green;">Setings</a></li>
+     <li><a href="#" style= "color:green;">Your ratings</a></li>
+     <li><a href="#" style= "color:green;">Wishlist</a></li>
+     </ol>
+     
+     </div>
+
+    <div class="f_column3 top_movies_list">
+     <p style= "color:blue; font-size: 26px;">WebsiteName</a></p>
+
+     <h3>This website is maintained and devloped by            , Information Technology undergraduates from the University of Mumbai.</h3>
+     
+     <p>Version 1.0.2017.4</p>
+     
+     <h4>Copyright 2017</h4>
+     </div>
+
+</footer>
+
+
+</body>
+</html>

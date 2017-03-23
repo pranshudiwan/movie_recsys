@@ -1,0 +1,674 @@
+
+* {box-sizing: border-box;}
+
+body {
+	background-color: #f1f1f1;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.main-nav {
+
+        background: lightblue;
+        position: fixed;
+        top: 0%; 
+        width: 100%;
+        height: 60px;
+        z-index: 150;
+        
+        
+      }
+
+
+.main-nav a {
+
+        font-size: .9em;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #444135;
+        display: inline-block;
+        margin: 10px 10px;
+      }
+
+
+.main-nav a:hover {
+        color: #fff;
+      }
+
+.home_image {
+
+ 
+    background-size: 40px;
+    background-repeat: no-repeat;
+      position: fixed;
+         right: 72.5%;
+         top: 0%;
+}
+
+.notif_image {
+
+ 
+    background-size: 40px;
+    background-repeat: no-repeat;
+      position: fixed;
+         right: 20%;
+         top: 0%;
+}
+
+.user_image {
+
+ 
+    background-size: 40px;
+    background-repeat: no-repeat;
+      position: fixed;
+         right: 15%;
+         top: 0%;
+}
+
+.logo_image {
+
+ 
+    background-size: 40px;
+    background-repeat: no-repeat;
+      position: fixed;
+         right: 80%;
+         top: 0%;
+}
+
+
+
+
+.box1 
+       {
+
+ 		 width: 70%;
+ 		 height: 47%;
+ 		 border: 1px #ddd;
+ 		 padding-left: 30px;
+ 		 padding-top: 35px;
+ 		 padding-right: 30px;
+ 		 padding-bottom: 35px;
+ 		 box-sizing: border-box;
+ 		 background-color: #fff;
+ 		 position: absolute;
+ 		 left: 15%;
+ 		 top: 10%;
+
+ 	   }
+
+
+.image {
+
+	   max-width: 100%;
+	   height: auto;
+	   
+	   }
+
+
+.cols {
+
+	columns: 1000px;
+}
+
+.title_of_movie
+
+         {
+
+	     font-family: sans-serif;
+	     font-size: 50px;
+	     color: #5353f6;
+	     padding-left: 5%;    
+	     max-width: 80%;
+	     float: left;
+
+	     
+          }
+
+ .rating
+
+        {
+
+        font-family: sans-serif;
+        font-size: 40px;
+        color: black;
+        max-width: 20%;
+        float: right;
+        color: green;
+
+        }
+
+
+ .desc {
+
+ 	  font-family: sans-serif;
+ 	  font-size: 20px;
+ 	  color: rgb(32,32,32);
+ 	  float: left;
+ 	  padding-left: 5%;
+ 	  padding-top: 2px;
+ 	  max-width: 90%;
+ 	  text-align: justify;
+ 	  
+ }
+
+ .genre {
+ 	  font-family: sans-serif;
+ 	  font-size: 17px;
+ 	  color: blue;
+ 	  float: left;
+ 	  padding-left: 5%;
+ 	  text-align: justify;
+ 	  max-width: 30%;
+ 	  padding-top: 20px;
+ }
+
+ .year {
+
+ 	  font-family: sans-serif;
+ 	  font-size: 17px;
+ 	  color: blue;
+ 	  float: center;
+ 	  padding-left: 5%;
+ 	  
+ 	  max-width: 40%;
+ 	  padding-top: 20px;
+
+ }
+
+ .runtime {
+
+ 	  font-family: sans-serif;
+ 	  font-size: 17px;
+ 	  color: blue;
+ 	  padding-top: 20px;
+ 	  padding-left: 5%;
+ 	  text-align: justify;
+ 	  max-width: 30%;
+ }
+
+ .box2 
+       {
+
+ 		 width: 46.5%;
+ 		 height: 70%;
+ 		 border: 1px #ddd;
+ 		 padding-left: 30px;
+ 		 padding-top: 45px;
+ 		 padding-right: 30px;
+ 		 padding-bottom: 35px;
+ 		 box-sizing: border-box;
+ 		 background-color: white;
+ 		 position: absolute;
+ 		 left: 15%;
+ 		 top: 63%;
+ 		 max-width: 80%;
+	     float: left;
+
+ 	   }
+
+.language
+
+        {
+
+        font-family: sans-serif;
+        font-size: 20px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 56%;
+        color: orange;
+
+
+        }
+
+.lang_name
+
+        {
+
+        font-family: sans-serif;
+        font-size: 22px;
+        max-width: 30%;
+        padding-right: 30px;padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 60%;
+        color: green;
+
+        }
+
+ .director
+
+        {
+
+        font-family: sans-serif;
+        font-size: 20px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 70%;
+        color: orange;
+
+        }
+
+ .director_name
+
+        {
+
+        font-family: sans-serif;
+        font-size: 22px;
+        max-width: 90%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 74%;
+        color: green;
+        overflow: hidden;
+        overflow-wrap: break-word;
+
+       
+        }
+
+
+.cast
+
+        {
+
+        font-family: sans-serif;
+        font-size: 20px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 84%;
+        color: orange;
+
+        }
+ .cast_name
+
+        {
+
+        font-family: sans-serif;
+        font-size: 22px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 88%;
+        color: green;
+
+        }
+
+ .box3 
+       {
+
+ 		 width: 21.5%;
+ 		 height: 35%;
+ 		 border: 1px #ddd;
+ 		 padding-left: 30px;
+ 		 padding-top: 50px;
+ 		 padding-right: 30px;
+ 		 padding-bottom: 35px;
+ 		 box-sizing: border-box;
+ 		 background-color: white;
+ 		 position: absolute;
+ 		 left: 63.5%;
+ 		 top: 63%;
+ 		 max-width: 80%;
+	     
+
+ 	   }
+
+
+
+ .box4 
+       {
+
+         width: 21.5%;
+         height: 85%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 50px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-color: white;
+         position: absolute;
+         left: 63.5%;
+         top: 100%;
+         max-width: 80%;
+         
+
+       }
+
+ .top_movies_title
+
+        {
+
+        font-family: sans-serif;
+        font-size: 25px;
+        max-width: 90%;
+        padding-right: 5px;
+        position: absolute;
+        color: green;
+
+        }
+
+ .top_movies_list
+
+        {
+
+        font-family: sans-serif;
+        font-size: 23px;
+        max-width: 90%;
+        padding-right: 5px;
+        position: absolute;
+        color: green;
+        top: 15%;
+
+        }
+
+ .box5 
+       {
+
+         width: 46.5%;
+         height: 50%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 50px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-color: white;
+         position: absolute;
+         left: 15%;
+         top: 135%;
+       }
+
+.similar_movies
+
+        {
+
+        font-family: sans-serif;
+        font-size: 20px;
+        max-width: 90%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 6%;
+        color: green;
+
+        }
+
+.m_row > .m_column {
+  padding: 0 7px;
+}
+
+.m_row {
+  padding-top: 8%;
+  padding-bottom: 5%;
+
+}
+
+.m_column {
+  float: left;
+  width: 25%;
+  height: 20%;
+
+
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+ .box6 
+       {
+
+         width: 46.5%;
+         height: 35%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 50px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-color: white;
+         position: absolute;
+         left: 15%;
+         top: 190%;
+         max-width: 80%;
+         
+
+       }
+
+
+.tags_head {
+
+    font-size: 20px;
+    font-family: sans-serif;
+    color: green;
+    position: absolute;
+    left: 3.5%;
+    top: 6%;
+
+}
+
+
+.tags {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button3 {border-radius: 8px;}
+
+ .box7 
+       {
+
+         width: 21.5%;
+         height: 35%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 50px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-color: white;
+         position: absolute;
+         left: 63.5%;
+         top: 190%;
+         max-width: 80%;
+         
+
+       }
+
+.box8 
+       {
+
+         max-width: 70%;
+         max-height: 80%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 15px;
+         padding-right: 15px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-color: #fff;
+         position: absolute;
+         left: 15%;
+         top: 230%;
+         font-family: sans-serif;
+         font-size: 20px;
+         color: green;
+         overflow: auto;
+
+
+
+       }
+
+
+.box9 
+       {
+
+         width: 46.5%;
+         height: 80%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 15px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-color: #fff;
+         position: absolute;
+         left: 15%;
+         top: 320%;
+         font-family: sans-serif;
+         font-size: 25px;
+         color: green;
+
+       }
+
+
+.footer 
+       {
+
+         width: 100%;
+         height: 40%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 35px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-color: rgb(184,184,184);
+         position: absolute;
+         left: 0%;
+         top: 405%;
+
+       }
+
+
+.f_row > .f_column {
+  padding: 0 10px;
+}
+
+.f_row {
+  padding-top: 8%;
+  padding-left: 5%
+}
+
+.f_column {
+  float: left;
+  font-size: 20px;
+  width: 25%;
+  height: 20%;
+}
+
+.f_column1 {
+  float: left;
+  font-size: 20px;
+  width: 25%;
+  height: 20%;
+  position: absolute;
+         left: 25%;
+         top: 15%;
+}
+
+.f_column2 {
+  float: left;
+  font-size: 20px;
+  width: 25%;
+  height: 20%;
+  position: absolute;
+         left: 45%;
+         top: 15%;
+}
+
+
+.f_column3 {
+  float: left;
+  width: 25%;
+  height: 20%;
+  font-size: 16px;
+  position: absolute;
+         left: 65%;
+         top: 15%;
+}
+
+
+
+input[name="search_text"] {
+
+    width: 25%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 3px 3px; 
+    background-size: 33px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 1.0s ease-in-out;
+    transition: width 1.0s ease-in-out;
+      position: fixed;
+         left: 30%;
+         top: 0.5%;
+}
+
+input[name="search_text"]:focus {
+
+    width: 40%;
+}
+
+
+input[name="form_text"], select, textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[name="form_submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[name="form_submit"]:hover {
+    background-color: #45a049;
+}
+
+textarea[name="movie_review"] {
+    resize: none;
+    overflow: auto;
+    max-width: 90%;
+
+}
+
+
