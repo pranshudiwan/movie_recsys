@@ -1,4 +1,6 @@
+
 * {box-sizing: border-box;}
+
 
 body {
   background-image: url("a.jpg"); 
@@ -116,6 +118,7 @@ input[name="search_text"]:focus {
 
 
 
+
 .footer 
        {
 
@@ -130,7 +133,7 @@ input[name="search_text"]:focus {
          background-color: rgb(184,184,184);
          position: absolute;
          left: 0%;
-         top: 120%;
+         top: 290%;
 
        }
 
@@ -191,7 +194,7 @@ input[name="search_text"]:focus {
         max-width: 90%;
         padding-right: 5px;
         position: absolute;
-        color: black;
+        color: #282828;
         top: 15%;
 
         }
@@ -245,59 +248,153 @@ input[name="search_text"]:focus {
 
 
 
+.box0 
+       {
 
-.head {
-
-     font-family: myFirstFont;
-     font-size: 45px;
-     text-align: center;
+     width: 40%;
+     height: 50%;
+          border-width: 3px;
+border-style:solid;
+border-color:black;
+border-radius: 20px;
+     padding-left: 30px;
+     padding-top: 35px;
+     padding-right: 30px;
+     padding-bottom: 35px;
+     box-sizing: border-box;
+     background-image: url("a.jpg");
+     position: absolute;
+     left: 30%;
+     top: 15%;
      color: #1e4bce;
-}
+
+     }
 
 .box1 
        {
 
-         width: 70%;
-         height: 700px;
-         background-image: url("a.jpg"); 
+     width: 70%;
+     height: 50%;
+     padding-left: 30px;
+     padding-top: 35px;
+     padding-right: 30px;
+     padding-bottom: 35px;
+     box-sizing: border-box;
+     background-image: url("a.jpg");
+     position: absolute;
+     left: 15%;
+     top: 75%;
+
+     }
+
+.title_top_picks
+
+         {
+
+       font-family: myFirstFont;
+       font-size: 32px;
+       color: #1e4bce;
+       padding-left: 2%;    
+       max-width: 90%;
+       float: left;
+          }
+
+.title_see_more
+
+         {
+
+       font-family: myFirstFont;
+       color: #1e4bce;
+       padding-left: 2%;    
+       max-width: 80%;
+       float: right;
+       position: relative;
+       right: 5%;
+       top: 4%;
+
+       
+          }
+
+.img_container {
+
+  max-width: 90%;
+  height: 55%;
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: absolute;
+  white-space: nowrap;
+  left: 5%;
+  top: 30%;
+
+}
+
+.img {
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    width: 16%;
+    height: 88%;
+
+}
+
+.img:hover {
+    box-shadow: 10px 18px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.img_star {
+
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    width: 35%;
+    height: 38%;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+
+}
+
+.img_star:hover {
+    box-shadow: 10px 18px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.box2
+       {
+
+     width: 70%;
+     height: 50%;
+     border: 1px #ddd;
+     padding-left: 30px;
+     padding-top: 35px;
+     padding-right: 30px;
+     padding-bottom: 35px;
+     box-sizing: border-box;
+     background-image: url("a.jpg");
+     position: absolute;
+     left: 15%;
+     top: 135%;
+
+     }
+
+.box8 
+       {
+
+         max-width: 70%;
+         max-height: 80%;
+         border: 1px #ddd;
          padding-left: 30px;
-         padding-top: 35px;
-         padding-right: 30px;
+         padding-top: 15px;
+         padding-right: 15px;
          padding-bottom: 35px;
          box-sizing: border-box;
-         font-family: myFirstFont;
-         position: relative;
+         background-image: url("a.jpg");
+         position: absolute;
          left: 15%;
-         top: 20%;
-         
+         top: 195%;
+         font-family: myFirstFont;
+         font-size: 22px;
+         color: #404040;
+         overflow: auto;
 
        }
-
-
-.text {
-
-     font-family: myFirstFont;
-     font-size: 28px;
-     text-align: left;
-     color: #303030 ;
-     padding: 25px;
-     overflow: auto;
-     max-width: 100%;
-     text-align: justify;
-}
-
-input[name="form_submit"] {
-    background-color: #1e4bce;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    position: relative;
-    top: 270px;
-    left: 8%;
-}
-
-input[name="form_submit"]:hover {
-    opacity: 0.85;
-}

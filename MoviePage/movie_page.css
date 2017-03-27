@@ -1,8 +1,9 @@
 
 * {box-sizing: border-box;}
 
+
 body {
-	background-color: #f1f1f1;
+  background-image: url("a.jpg"); 
 }
 
 
@@ -10,14 +11,20 @@ a {
     text-decoration: none;
 }
 
+@font-face {
+   font-family: myFirstFont;
+   src: url(ufonts.com_matterhorn-normal.woff);
+}
 
 .main-nav {
 
-        background: lightblue;
+        background: #101010;
         position: fixed;
+        float: left;
+        left: 0%;
         top: 0%; 
         width: 100%;
-        height: 60px;
+        height: 50px;
         z-index: 150;
         
         
@@ -43,10 +50,10 @@ a {
 .home_image {
 
  
-    background-size: 40px;
+    background-size: 10px;
     background-repeat: no-repeat;
       position: fixed;
-         right: 72.5%;
+         right: 28%;
          top: 0%;
 }
 
@@ -56,7 +63,7 @@ a {
     background-size: 40px;
     background-repeat: no-repeat;
       position: fixed;
-         right: 20%;
+         right: 24%;
          top: 0%;
 }
 
@@ -67,7 +74,9 @@ a {
     background-repeat: no-repeat;
       position: fixed;
          right: 15%;
-         top: 0%;
+         top: 1%;
+         font-family: myFirstFont;
+         font-size: 25px;
 }
 
 .logo_image {
@@ -80,476 +89,42 @@ a {
          top: 0%;
 }
 
-
-
-
-.box1 
-       {
-
- 		 width: 70%;
- 		 height: 47%;
- 		 border: 1px #ddd;
- 		 padding-left: 30px;
- 		 padding-top: 35px;
- 		 padding-right: 30px;
- 		 padding-bottom: 35px;
- 		 box-sizing: border-box;
- 		 background-color: #fff;
- 		 position: absolute;
- 		 left: 15%;
- 		 top: 10%;
-
- 	   }
-
-
-.image {
-
-	   max-width: 100%;
-	   height: auto;
-	   
-	   }
-
-
-.cols {
-
-	columns: 1000px;
-}
-
-.title_of_movie
-
-         {
-
-	     font-family: sans-serif;
-	     font-size: 50px;
-	     color: #5353f6;
-	     padding-left: 5%;    
-	     max-width: 80%;
-	     float: left;
-
-	     
-          }
-
- .rating
-
-        {
-
-        font-family: sans-serif;
-        font-size: 40px;
-        color: black;
-        max-width: 20%;
-        float: right;
-        color: green;
-
-        }
-
-
- .desc {
-
- 	  font-family: sans-serif;
- 	  font-size: 20px;
- 	  color: rgb(32,32,32);
- 	  float: left;
- 	  padding-left: 5%;
- 	  padding-top: 2px;
- 	  max-width: 90%;
- 	  text-align: justify;
- 	  
- }
-
- .genre {
- 	  font-family: sans-serif;
- 	  font-size: 17px;
- 	  color: blue;
- 	  float: left;
- 	  padding-left: 5%;
- 	  text-align: justify;
- 	  max-width: 30%;
- 	  padding-top: 20px;
- }
-
- .year {
-
- 	  font-family: sans-serif;
- 	  font-size: 17px;
- 	  color: blue;
- 	  float: center;
- 	  padding-left: 5%;
- 	  
- 	  max-width: 40%;
- 	  padding-top: 20px;
-
- }
-
- .runtime {
-
- 	  font-family: sans-serif;
- 	  font-size: 17px;
- 	  color: blue;
- 	  padding-top: 20px;
- 	  padding-left: 5%;
- 	  text-align: justify;
- 	  max-width: 30%;
- }
-
- .box2 
-       {
-
- 		 width: 46.5%;
- 		 height: 70%;
- 		 border: 1px #ddd;
- 		 padding-left: 30px;
- 		 padding-top: 45px;
- 		 padding-right: 30px;
- 		 padding-bottom: 35px;
- 		 box-sizing: border-box;
- 		 background-color: white;
- 		 position: absolute;
- 		 left: 15%;
- 		 top: 63%;
- 		 max-width: 80%;
-	     float: left;
-
- 	   }
-
-.language
-
-        {
-
-        font-family: sans-serif;
-        font-size: 20px;
-        max-width: 30%;
-        padding-right: 30px;
-        position: absolute;
-        left: 3.5%;
-        top: 56%;
-        color: orange;
-
-
-        }
-
-.lang_name
-
-        {
-
-        font-family: sans-serif;
-        font-size: 22px;
-        max-width: 30%;
-        padding-right: 30px;padding-right: 30px;
-        position: absolute;
-        left: 3.5%;
-        top: 60%;
-        color: green;
-
-        }
-
- .director
-
-        {
-
-        font-family: sans-serif;
-        font-size: 20px;
-        max-width: 30%;
-        padding-right: 30px;
-        position: absolute;
-        left: 3.5%;
-        top: 70%;
-        color: orange;
-
-        }
-
- .director_name
-
-        {
-
-        font-family: sans-serif;
-        font-size: 22px;
-        max-width: 90%;
-        padding-right: 30px;
-        position: absolute;
-        left: 3.5%;
-        top: 74%;
-        color: green;
-        overflow: hidden;
-        overflow-wrap: break-word;
-
-       
-        }
-
-
-.cast
-
-        {
-
-        font-family: sans-serif;
-        font-size: 20px;
-        max-width: 30%;
-        padding-right: 30px;
-        position: absolute;
-        left: 3.5%;
-        top: 84%;
-        color: orange;
-
-        }
- .cast_name
-
-        {
-
-        font-family: sans-serif;
-        font-size: 22px;
-        max-width: 30%;
-        padding-right: 30px;
-        position: absolute;
-        left: 3.5%;
-        top: 88%;
-        color: green;
-
-        }
-
- .box3 
-       {
-
- 		 width: 21.5%;
- 		 height: 35%;
- 		 border: 1px #ddd;
- 		 padding-left: 30px;
- 		 padding-top: 50px;
- 		 padding-right: 30px;
- 		 padding-bottom: 35px;
- 		 box-sizing: border-box;
- 		 background-color: white;
- 		 position: absolute;
- 		 left: 63.5%;
- 		 top: 63%;
- 		 max-width: 80%;
-	     
-
- 	   }
-
-
-
- .box4 
-       {
-
-         width: 21.5%;
-         height: 85%;
-         border: 1px #ddd;
-         padding-left: 30px;
-         padding-top: 50px;
-         padding-right: 30px;
-         padding-bottom: 35px;
-         box-sizing: border-box;
-         background-color: white;
-         position: absolute;
-         left: 63.5%;
-         top: 100%;
-         max-width: 80%;
-         
-
-       }
-
- .top_movies_title
-
-        {
-
-        font-family: sans-serif;
-        font-size: 25px;
-        max-width: 90%;
-        padding-right: 5px;
-        position: absolute;
-        color: green;
-
-        }
-
- .top_movies_list
-
-        {
-
-        font-family: sans-serif;
-        font-size: 23px;
-        max-width: 90%;
-        padding-right: 5px;
-        position: absolute;
-        color: green;
-        top: 15%;
-
-        }
-
- .box5 
-       {
-
-         width: 46.5%;
-         height: 50%;
-         border: 1px #ddd;
-         padding-left: 30px;
-         padding-top: 50px;
-         padding-right: 30px;
-         padding-bottom: 35px;
-         box-sizing: border-box;
-         background-color: white;
-         position: absolute;
-         left: 15%;
-         top: 135%;
-       }
-
-.similar_movies
-
-        {
-
-        font-family: sans-serif;
-        font-size: 20px;
-        max-width: 90%;
-        padding-right: 30px;
-        position: absolute;
-        left: 3.5%;
-        top: 6%;
-        color: green;
-
-        }
-
-.m_row > .m_column {
-  padding: 0 7px;
-}
-
-.m_row {
-  padding-top: 8%;
-  padding-bottom: 5%;
-
-}
-
-.m_column {
-  float: left;
-  width: 25%;
-  height: 20%;
-
-
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
-
-
- .box6 
-       {
-
-         width: 46.5%;
-         height: 35%;
-         border: 1px #ddd;
-         padding-left: 30px;
-         padding-top: 50px;
-         padding-right: 30px;
-         padding-bottom: 35px;
-         box-sizing: border-box;
-         background-color: white;
-         position: absolute;
-         left: 15%;
-         top: 190%;
-         max-width: 80%;
-         
-
-       }
-
-
-.tags_head {
-
-    font-size: 20px;
-    font-family: sans-serif;
-    color: green;
-    position: absolute;
-    left: 3.5%;
-    top: 6%;
-
-}
-
-
-.tags {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-family: sans-serif;
-    display: inline-block;
+input[name="search_text"] {
+
+    width: 25%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
     font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    font-family: myFirstFont;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 3px 3px; 
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 1.0s ease-in-out;
+    transition: width 1.5s ease-in-out;
+      position: fixed;
+         left: 30%;
+         top: 0.5%;
 }
 
-.button3 {border-radius: 8px;}
+input[name="search_text"]:focus {
 
- .box7 
-       {
-
-         width: 21.5%;
-         height: 35%;
-         border: 1px #ddd;
-         padding-left: 30px;
-         padding-top: 50px;
-         padding-right: 30px;
-         padding-bottom: 35px;
-         box-sizing: border-box;
-         background-color: white;
-         position: absolute;
-         left: 63.5%;
-         top: 190%;
-         max-width: 80%;
-         
-
-       }
-
-.box8 
-       {
-
-         max-width: 70%;
-         max-height: 80%;
-         border: 1px #ddd;
-         padding-left: 30px;
-         padding-top: 15px;
-         padding-right: 15px;
-         padding-bottom: 35px;
-         box-sizing: border-box;
-         background-color: #fff;
-         position: absolute;
-         left: 15%;
-         top: 230%;
-         font-family: sans-serif;
-         font-size: 20px;
-         color: green;
-         overflow: auto;
+    width: 35%;
+}
 
 
 
-       }
-
-
-.box9 
-       {
-
-         width: 46.5%;
-         height: 80%;
-         border: 1px #ddd;
-         padding-left: 30px;
-         padding-top: 15px;
-         padding-right: 30px;
-         padding-bottom: 35px;
-         box-sizing: border-box;
-         background-color: #fff;
-         position: absolute;
-         left: 15%;
-         top: 320%;
-         font-family: sans-serif;
-         font-size: 25px;
-         color: green;
-
-       }
 
 
 .footer 
        {
 
          width: 100%;
-         height: 40%;
+         height: 50%;
          border: 1px #ddd;
          padding-left: 30px;
          padding-top: 35px;
@@ -559,7 +134,7 @@ a {
          background-color: rgb(184,184,184);
          position: absolute;
          left: 0%;
-         top: 405%;
+         top: 410%;
 
        }
 
@@ -605,40 +180,520 @@ a {
   float: left;
   width: 25%;
   height: 20%;
-  font-size: 16px;
+  font-size: 15px;
   position: absolute;
          left: 65%;
          top: 15%;
 }
 
+ .top_movies_list
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 23px;
+        max-width: 90%;
+        padding-right: 5px;
+        position: absolute;
+        color: #282828;
+        top: 15%;
+
+        }
 
 
-input[name="search_text"] {
+.fa {
+  padding: 20px;
+  width: 32px;
+  height: 32px;
+}
 
-    width: 25%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    font-family: sans-serif;
-    background-color: white;
-    background-image: url('search.png');
-    background-position: 3px 3px; 
-    background-size: 33px;
+.fa:hover {
+    opacity: 0.9;
+}
+
+.facebook {
+
+    background-image: url("aa.png");
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 1.0s ease-in-out;
-    transition: width 1.0s ease-in-out;
-      position: fixed;
-         left: 30%;
-         top: 0.5%;
+      position: absolute;
+         left: 38%;
+         top: 82%;
 }
 
-input[name="search_text"]:focus {
+.facebook1 {
 
-    width: 40%;
+    background-image: url("aa.png");
+    background-repeat: no-repeat;
+      position:absolute;
+         left: 42%;
+         top: 82%;
 }
 
+.facebook2 {
+
+    background-image: url("aa.png");
+    background-repeat: no-repeat;
+      position:absolute;
+         left: 46%;
+         top: 82%;
+}
+
+.facebook3 {
+
+    background-image: url("aa.png");
+    background-repeat: no-repeat;
+      position:absolute;
+         left: 50%;
+         top: 82%;
+}
+
+
+.box1 
+       {
+
+         width: 70%;
+         height: 47%;
+         border-size:10px;
+         border-style:solid;
+		 border-color:black;
+         padding-left: 30px;
+         padding-top: 35px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-image: url("a.jpg");
+         position: absolute;
+         left: 15%;
+         top: 10%;
+
+border-radius: 20px;
+
+       }
+
+        .box2 
+       {
+
+         width: 46.5%;
+         height: 70%;
+
+border-radius: 20px;
+         padding-left: 30px;
+         padding-top: 45px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-image: url("a.jpg");
+         position: absolute;
+         left: 15%;
+         top: 63%;
+         max-width: 80%;
+         float: left;
+
+       }
+
+.image {
+
+	   max-width: 100%;
+	   height: auto;
+    }
+
+    .image-shadow{
+       box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+	   
+	   }
+
+
+.cols {
+
+	columns: 1000px;
+}
+
+.title_of_movie
+
+         {
+
+	     font-family: myFirstFont;
+	     font-size: 50px;
+	     color: #1e4bce;
+	     padding-left: 5%;    
+	     max-width: 80%;
+	     float: left;
+
+	     
+          }
+
+ .rating
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 40px;
+        
+        max-width: 20%;
+        float: right;
+        color: #1e4bce;
+
+        }
+
+
+ .desc {
+
+ 	  font-family: myFirstFont;
+ 	  font-size: 24px;
+ 	  color: rgb(32,32,32);
+ 	  float: left;
+ 	  padding-left: 5%;
+ 	  padding-top: 2px;
+ 	  max-width: 90%;
+ 	  text-align: justify;
+ 	  
+ }
+
+ .genre {
+ 	  font-family: myFirstFont;
+ 	  font-size: 21px;
+ 	  color: #282828;
+ 	  float: left;
+ 	  padding-left: 5%;
+ 	  text-align: justify;
+ 	  max-width: 30%;
+ 	  padding-top: 20px;
+ }
+
+ .year {
+
+ 	  font-family: myFirstFont;
+ 	  font-size: 21px;
+ 	  color: #282828;
+ 	  float: center;
+ 	  padding-left: 5%;
+ 	  
+ 	  max-width: 40%;
+ 	  padding-top: 20px;
+
+ }
+
+ .runtime {
+
+ 	  font-family: myFirstFont;
+ 	  font-size: 21px;
+ 	  color: #282828;
+ 	  padding-top: 20px;
+ 	  padding-left: 5%;
+ 	  text-align: justify;
+ 	  max-width: 30%;
+ }
+
+
+
+.language
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 20px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 56%;
+        color: #1e4bce;
+
+
+        }
+
+.lang_name
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 22px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 60%;
+        color: #282828;
+
+        }
+
+ .director
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 20px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 70%;
+        color: #1e4bce;
+
+        }
+
+ .director_name
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 22px;
+        max-width: 90%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 74%;
+        color: #181818;
+  
+       
+        }
+
+
+.cast
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 20px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 84%;
+        color: #1e4bce;
+
+        }
+ .cast_name
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 22px;
+        max-width: 30%;
+        padding-right: 30px;
+        position: absolute;
+        color: #181818;
+        left: 3.5%;
+        top: 88%;
+
+        }
+
+ .box3 
+       {
+
+ 		 width: 21.5%;
+ 		 height: 35%;
+
+ 		 padding-left: 30px;
+ 		 padding-top: 50px;
+ 		 padding-right: 30px;
+ 		 padding-bottom: 35px;
+ 		 box-sizing: border-box;
+ 		 background-image: url("a.jpg");
+ 		 position: absolute;
+ 		 left: 63.5%;
+ 		 top: 63%;
+ 		 max-width: 80%;
+         border-radius: 20px;
+	     
+
+ 	   }
+
+
+
+ .box4 
+       {
+
+         width: 21.5%;
+         height: 85%;
+                 border-width: 1px;
+border-style:solid;
+border-color:black;
+background-image: url("a.jpg");
+border-radius: 20px;
+         padding-left: 30px;
+         padding-top: 50px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         
+         position: absolute;
+         left: 63.5%;
+         top: 100%;
+         max-width: 80%;
+         
+         
+
+       }
+
+ .top_movies_title
+
+        {
+
+        font-family: myFirstFont;
+        font-size: 25px;
+        max-width: 90%;
+        padding-right: 5px;
+        position: absolute;
+        color: #181818;
+
+        }
+
+
+ .box5 
+       {
+
+         width: 46.5%;
+         height: 50%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 50px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-image: url("a.jpg");
+         position: absolute;
+         left: 15%;
+         top: 135%;
+       }
+
+.similar_movies
+
+        {
+
+        font-family: myFirstFont;
+        max-width: 90%;
+        padding-right: 30px;
+        position: absolute;
+        left: 3.5%;
+        top: 6%;
+        color: #1e4bce;
+
+        }
+
+.m_row > .m_column {
+  padding: 0 7px;
+}
+
+.m_row {
+  padding-top: 8%;
+  padding-bottom: 5%;
+
+}
+
+.m_column {
+  float: left;
+  width: 25%;
+  height: 20%;
+
+
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+ .box6 
+       {
+
+         width: 46.5%;
+         height: 35%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 50px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-image: url("a.jpg");
+         position: absolute;
+         left: 15%;
+         top: 190%;
+         max-width: 80%;
+         
+
+       }
+
+
+.tags_head {
+
+   
+    font-family: myFirstFont;
+    color: #1e4bce;
+    position: absolute;
+    left: 3.5%;
+    top: 6%;
+
+}
+
+
+.tags {
+    background-color: #1e4bce; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+   font-family: myFirstFont;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.tags:hover {
+	 opacity: 0.85;
+}
+
+.button3 {border-radius: 8px;
+}
+
+ .box7 
+       {
+
+         width: 21.5%;
+         height: 35%;
+         border: 1px #ddd;
+         padding-left: 30px;
+         padding-top: 50px;
+         padding-right: 30px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-color: white;
+         position: absolute;
+         left: 63.5%;
+         top: 190%;
+         max-width: 80%;
+         background-image: url("a.jpg");
+         
+
+       }
+
+.box8 
+       {
+
+         max-width: 70%;
+         max-height: 80%;
+         padding-left: 30px;
+         padding-top: 15px;
+         padding-right: 15px;
+         padding-bottom: 35px;
+         box-sizing: border-box;
+         background-image: url("a.jpg");
+         position: absolute;
+         left: 15%;
+         top: 230%;
+         font-family: myFirstFont;
+         font-size: 22px;
+         color: #1e4bce;
+         overflow: auto;
+border-width: 1px;
+border-style:solid;
+border-color:black;
+background-image: url("a.jpg");
+border-radius: 20px;
+
+       }
 
 input[name="form_text"], select, textarea {
     width: 75%;
@@ -649,19 +704,21 @@ input[name="form_text"], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    color: #1e4bce;
+    font-family: myFirstFont;
 }
 
 input[name="form_submit"] {
-    background-color: #4CAF50;
+    background-color: #1e4bce;
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
 }
 
 input[name="form_submit"]:hover {
-    background-color: #45a049;
+    opacity: 0.85;
 }
 
 textarea[name="movie_review"] {
@@ -672,3 +729,28 @@ textarea[name="movie_review"] {
 }
 
 
+.box9 
+       {
+
+         width: 46.5%;
+         height: 82%;
+       border-width: 1px;
+border-style:solid;
+border-color:black;
+background-image: url("a.jpg");
+border-radius: 20px;
+         padding-left: 30px;
+         padding-top: 10px;
+         padding-right: 30px;
+         padding-bottom: 10px;
+         box-sizing: border-box;
+         background-color: #fff;
+         position: absolute;
+         left: 15%;
+         top: 315%;
+         font-family: myFirstFont;
+         font-size: 25px;
+         color: #1e4bce;
+         overflow: auto;
+
+       }

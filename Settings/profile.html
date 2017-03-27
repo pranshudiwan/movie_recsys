@@ -10,7 +10,7 @@
 
  <title>Home Page</title>
 
-<link rel="stylesheet" type="text/css" href="home_page.css">
+<link rel="stylesheet" type="text/css" href="profile.css">
 </head>
 
 <body>
@@ -28,61 +28,19 @@
     
     </nav><br><br>
 
-    <h1 class="welcome">Welcome, Pranshu Diwan</h1><br>
-
-    <div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <a href="#"><img src="1.jpg" style="width:100%" class="hover-shadow"></a>
-  <div class="text">Caption Text</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <a href="#"><img src="2.jpg" style="width:100%" class="hover-shadow"></a>
-  <div class="text">Caption Two</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <a href="#"><img src="4.jpg" style="width:100%" class="hover-shadow"></a>
-  <div class="text">Caption Three</div>
-</div>
+<div class="box0">
+    <h1 class="title_top_picks" style="display: inline;">You have rated
+    <a href="#" style="display: inline;">71 </a>movies. Your rank is:
+    <a href="#" style="display: inline;">Starfish</a>
+    <br><br> </h1>
+    <a href="#"><img src="starfish.jpg" class="img_star"></a>
 
 </div>
-<br>
 
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 8000); // Change image every 2 seconds
-}
-</script>
 
 <div class="box1">
-  <h1 class="title_top_picks" style="display: inline;">Top picks for you:<br><br> </h1>
+  <h1 class="title_top_picks" style="display: inline;">Your Wishlist<br>
+  <br> </h1>
   <h3  class="title_see_more" style="display: inline;"><a href="#">See more<br></a></h3>
 
   <div class="img_container">
@@ -111,10 +69,10 @@ function showSlides() {
 
    </div>
 </div>
-
 
 <div class="box2">
-  <h1 class="title_top_picks" style="display: inline;">Recent Releases: <br><br> </h1>
+  <h1 class="title_top_picks" style="display: inline;">Movies you rated: <br>
+  <br> </h1>
   <h3  class="title_see_more" style="display: inline;"><a href="#">See more<br></a></h3>
 
   <div class="img_container">
@@ -141,93 +99,63 @@ function showSlides() {
    <img src="5.jpg" alt="Forest" class="img">
    </a>
 
-</div>
-</div>
-
-<div class="box3">
- <div class="add_movie">
-   <h2>Movie missing? Submit it to us, we'll add it here.<br></h2>
-
-  <form>
-    <label for="fname"><br>Title</label><br>
-    <input type="text" id="fname" name="form_text" class="form_text" 
-    placeholder="Title.."><br>
-
-    <label for="lname"><br>Imdb link<br></label>
-    <input type="text" id="lname" name="form_text" class="form_text" 
-    placeholder="Imdb link"><br><br><br>
-
-    <input type="submit" value="Submit" name="form_submit" class="form_submit">
-  </form>
    </div>
-
 </div>
 
-<div class="box3a">
-fevwev
+<div class="box8">
 
-</div>
+    <h1 style="color: #1e4bce">Movies you reviewed:<br><br>  </h1>
 
-<div class="box4">
-  <h1 class="title_top_picks" style="display: inline;">Rate these movies: <br><br> </h1>
-  <h3  class="title_see_more" style="display: inline;"><a href="#">See more<br></a></h3>
+    <a href="#" style="text-decoration: none;color: #1e4bce">MovieName
+    <h3 style="display: inline;">
+    <a href="#" style="text-decoration: none;color: #1e4bce">9.43</a></h3></a>
+    <p id="box8">gvkb ewgwbefiebfewecv
+    evSome text...Success!
+     4g34ntgui34tgbi45gui3bi4utgbui34fbw2fuib3
+     uifbui3bfiu23bfiub23fuib23iufbiubfiu3
+     bfiou3b4fi3u4bfi34ubfi4ufb34uif
+     </p>
+     <a href="#" style="text-decoration: none;color: #1e4bce">MovieName
+    <h3 style="display: inline;">
+    <a href="#" style="text-decoration: none;color: #1e4bce">9.43</a></h3></a>
+     <p id="box8">b4uifb4uifb4iufb34iiuofblqbfiluwbfuiqb;3
+     fiub24ifu;gb23;uiofb23uifb24;ufb24ubfg34;uibSuccess! 4g34ntgui34tgbi45gui3bi4
+     utgbui34fbw2fuib3uifbui3bfiu23bfiub23fuib23iufbiubfiu3bfiou3b4fi3u4bfi34ubfi4u
+     fb34uifb4uifb4uifb4iufb34i;ufbw3iuofblqbfiluwbfuiqb;3fiub24ifu;gb23;uiofb23ui
+     fb24;ufb24ubfg34;uib</p>
 
-  <div class="img_container">
+     <a href="#" style="text-decoration: none;color: #1e4bce">MovieName
+    <h3 style="display: inline;">
+    <a href="#" style="text-decoration: none;color: #1e4bce">9.43</a></h3></a>
+    <p id="box8">gvkb ewgwbefiebfewecv
+    evSome text...Success!
+     4g34ntgui34tgbi45gui3bi4utgbui34fbw2fuib3
+     uifbui3bfiu23bfiub23fuib23iufbiubfiu3
+     bfiou3b4fi3u4bfi34ubfi4ufb34uif
+     </p>
 
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
+     <a href="#" style="text-decoration: none;color: #1e4bce">MovieName
+    <h3 style="display: inline;">
+    <a href="#" style="text-decoration: none;color: #1e4bce">9.43</a></h3></a>
+    <p id="box8">gvkb ewgwbefiebfewecv
+    evSome text...Success!
+     4g34ntgui34tgbi45gui3bi4utgbui34fbw2fuib3
+     uifbui3bfiu23bfiub23fuib23iufbiubfiu3
+     bfiou3b4fi3u4bfi34ubfi4ufb34uifevSome text...Success!
+     4g34ntgui34tgbi45gui3bi4utgbui34fbw2fuib3
+     uifbui3bfiu23bfiub23fuib23iufbiubfiu3
+     bfiou3b4fi3u4bfi34ubfi4ufb34uifevSome text...Success!
+     4g34ntgui34tgbi45gui3bi4utgbui34fbw2fuib3
+     uifbui3bfiu23bfiub23fuib23iufbiubfiu3
+     bfiou3b4fi3u4bfi34ubfi4ufb34uifevSome text...Success!
+     4g34ntgui34tgbi45gui3bi4utgbui34fbw2fuib3
+     uifbui3bfiu23bfiub23fuib23iufbiubfiu3
+     bfiou3b4fi3u4bfi34ubfi4ufb34uifevSome text...Success!
+     4g34ntgui34tgbi45gui3bi4utgbui34fbw2fuib3
+     uifbui3bfiu23bfiub23fuib23iufbiubfiu3
+     bfiou3b4fi3u4bfi34ubfi4ufb34uif
+     </p>
 
-</div>
-</div>
-
-<div class="box5">
-  <h1 class="title_top_picks" style="display: inline;">Your wishlist: <br><br> </h1>
-  <h3  class="title_see_more" style="display: inline;"><a href="#">See more<br></a></h3>
-
-  <div class="img_container">
-
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-   <a href="#">
-   <img src="5.jpg" alt="Forest" class="img">
-   </a>
-
-</div>
 </div>
 
 <footer class="footer">
@@ -288,5 +216,3 @@ fevwev
 </footer>
 
 
-</body>
-</html>

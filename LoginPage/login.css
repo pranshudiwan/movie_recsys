@@ -1,7 +1,9 @@
+
 * {box-sizing: border-box;}
 
+
 body {
-	background-color: #f1f1f1;
+  background-image: url("a.jpg"); 
 }
 
 
@@ -9,10 +11,14 @@ a {
     text-decoration: none;
 }
 
+@font-face {
+   font-family: myFirstFont;
+   src: url(ufonts.com_matterhorn-normal.woff);
+}
 
 .main-nav {
 
-        background: lightblue;
+        background: #181818;
         position: absolute;
         top: 0%; 
         left: 0%;
@@ -42,14 +48,14 @@ a {
 
         {
 
-        font-family: sans-serif;
-        font-size: 50px;
+        font-family: myFirstFont;
+        font-size: 60px;
         max-width: 85%;
         padding-right: 30px;
         position: absolute;
         left: 46%;
         top: 8%;
-        color: green;
+        color: white;
 
         }
 
@@ -57,14 +63,14 @@ a {
 
         {
 
-        font-family: sans-serif;
+        font-family: myFirstFont;
         font-size: 30px;
         max-width: 85%;
         padding-right: 150px;
         position: absolute;
         left: 46%;
-        top: 30%;
-        color: green;
+        top: 35%;
+        color: white;
 
         }
 
@@ -77,7 +83,7 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: myFirstFont;
     padding-right: 20px;
 
 }
@@ -85,20 +91,25 @@ input[type=text], input[type=password] {
 
 .signupbtn {
     float: left;
-    width: 20%;
-    padding: 10px;
-    background-color: #4CAF50;
+    width: 25%;
+    padding: 12px;
+    background-color: #1e4bce;
     color: white;
-    padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 20%;
+    border-radius: 6px;
+    font-family: myFirstFont;
+}
+
+.signupbtn:hover {
+  opacity: 0.85;
 }
 
 
 .container {
     padding: 35px;
+    font-family: myFirstFont;
     
 }
 
@@ -115,27 +126,32 @@ input[type=text], input[type=password] {
        {
 
  		 width: 40%;
- 		 height: 90%;
- 		 border: 1px #ddd;
+ 		 height: 850px;
+     font-size: 25px;
+ 		      border-width: 1px;
+border-style:solid;
+border-color:black;
+border-radius: 20px;
+background-image: url("a.jpg");
  		 padding-left: 30px;
- 		 padding-top: 35px;
+ 		 padding-top: 15px;
  		 padding-right: 30px;
  		 padding-bottom: 35px;
  		 box-sizing: border-box;
- 		 background-color: #fff;
- 		 position: absolute;
+ 		 color: #1e4bce;
+ 		 position: relative;
  		 left: 15%;
- 		 top: 50%;
+ 		 top: 400px;
  		 overflow: auto;
 
  	   }
 
 .label {
 
-       font-family: sans-serif;
+       font-family: myFirstFont;
        font-size: 18px;
        max-width: 85%;
-       color: green;
+       color: #1e4bce;
 
 
 }
@@ -144,17 +160,21 @@ input[type=text], input[type=password] {
        {
 
  		 width: 27.5%;
- 		 height: 90%;
- 		 border: 1px #ddd;
+ 		 height: 850px;
+ 		 border-width: 1px;
+border-style:solid;
+border-color:black;
+border-radius: 20px;
+background-image: url("a.jpg");
  		 padding-left: 30px;
  		 padding-top: 35px;
  		 padding-right: 30px;
  		 padding-bottom: 35px;
  		 box-sizing: border-box;
- 		 background-color: #fff;
- 		 position: absolute;
+ 		 font-family: myFirstFont;
+ 		 position: relative;
  		 left: 57.5%;
- 		 top: 50%;
+ 		 top: -450px;
  		 overflow: auto;
 
  	   }
@@ -163,9 +183,9 @@ input[type=text], input[type=password] {
   
     width: 90%;
     display: inline-block;
-    color: green;
-    font-size: 22px;
-    font-family: sans-serif;
+    color: #1e4bce;
+    font-size: 24px;
+    font-family: myFirstFont;
 
  }
 
@@ -173,14 +193,14 @@ input[type=text], input[type=password] {
   
     width: 90%;
     display: inline-block;
-    color: green;
+    color: #1e4bce;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: myFirstFont;
 
  }
 
 input[name="form_text"], select, textarea {
-    width: 75%;
+    width: 95%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -191,7 +211,7 @@ input[name="form_text"], select, textarea {
 }
 
 input[name="form_submit"] {
-    background-color: #4CAF50;
+    background-color: #1e4bce;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -200,16 +220,16 @@ input[name="form_submit"] {
 }
 
 input[name="form_submit"]:hover {
-    background-color: #45a049;
+    opacity: 0.85;
 }
 
  .why_use {
   
     width: 90%;
     display: inline-block;
-    color: green;
-    font-size: 21px;
-    font-family: sans-serif;
+    color: #202020;
+    font-size: 22px;
+    font-family: myFirstFont;
     overflow: auto;
     padding-bottom: 20px;
 
@@ -221,7 +241,7 @@ input[name="form_submit"]:hover {
        {
 
          width: 100%;
-         height: 40%;
+         height: 50%;
          border: 1px #ddd;
          padding-left: 30px;
          padding-top: 35px;
@@ -231,7 +251,7 @@ input[name="form_submit"]:hover {
          background-color: rgb(184,184,184);
          position: absolute;
          left: 0%;
-         top: 205%;
+         top: 1800px;
 
        }
 
@@ -287,12 +307,12 @@ input[name="form_submit"]:hover {
 
         {
 
-        font-family: sans-serif;
-        font-size: 20px;
+        font-family: myFirstFont;
+        font-size: 23px;
         max-width: 90%;
         padding-right: 5px;
         position: absolute;
-        color: green;
+        color: black;
         top: 15%;
 
         }
@@ -302,8 +322,9 @@ input[name="form_submit"]:hover {
        {
 
  		 width: 70%;
- 		 height: 40%;
- 		 border: 1px #ddd;
+ 		 height: 400px;
+
+background-image: url("a.jpg");
  		 padding-left: 30px;
  		 padding-top: 35px;
  		 padding-right: 30px;
@@ -312,7 +333,7 @@ input[name="form_submit"]:hover {
  		 background-color: #fff;
  		 position: absolute;
  		 left: 15%;
- 		 top: 145%;
+ 		 top: 1300px;
  		 overflow: auto;
 
  	   }
@@ -321,12 +342,12 @@ input[name="form_submit"]:hover {
 
         {
 
-        font-family: sans-serif;
+        font-family: myFirstFont;
         font-size: 35px;
         max-width: 90%;
         padding-right: 5px;
         position: absolute;
-        color: green;
+        color: #1e4bce;
         top: 2%;
 
         }
@@ -464,4 +485,50 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.fa {
+  padding: 20px;
+  width: 32px;
+  height: 32px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.facebook {
+
+    background-image: url("aa.png");
+    background-repeat: no-repeat;
+      position: absolute;
+         left: 38%;
+         top: 82%;
+}
+
+.facebook1 {
+
+    background-image: url("aa.png");
+    background-repeat: no-repeat;
+      position:absolute;
+         left: 42%;
+         top: 82%;
+}
+
+.facebook2 {
+
+    background-image: url("aa.png");
+    background-repeat: no-repeat;
+      position:absolute;
+         left: 46%;
+         top: 82%;
+}
+
+.facebook3 {
+
+    background-image: url("aa.png");
+    background-repeat: no-repeat;
+      position:absolute;
+         left: 50%;
+         top: 82%;
 }
